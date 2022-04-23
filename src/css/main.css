@@ -1,0 +1,31 @@
+@import url(./marvel.css);
+@import url(./card.css);
+@import url(./error.css);
+@import url(./menu.css);
+@import url(./home.css);
+@import url(./character.css);
+@import url(./responsive.css);
+
+:root{
+    --grayColor : rgb(230, 228, 228);
+    --redColorOpen : rgb(250, 58, 58);
+    --redColorClear : rgb(253, 40, 40);
+    --blackBoxShadow : rgb(12, 12, 12);
+    --blackBackOne : rgb(44, 42, 42);
+    --blackBackTwo : rgb(26, 24, 24);
+    --blackBackThree : rgb(29, 27, 27);
+    --blackBackFour : rgba(29, 27, 27, 0.836);
+    --whiteText : rgb(248, 245, 245);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--grayColor);
+    user-select: none;
+}

@@ -1,0 +1,51 @@
+/*Marvel Container*/
+#MarvelContainer{
+    width: 100%;
+    height: 100%;
+    margin-top: 10px;
+}
+/*Marvel Cap*/
+#MarvelCap{
+    width: 100%;
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(16em,1fr));
+    justify-items: center;
+}
+/*Marvel Pagination*/
+#MarvelPagination{
+    height: 8em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#MarvelPaginationCap{
+    width: 20em;
+    height: 3em;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: var(--blackBackThree);
+    color: var(--whiteText);
+    font-size: 1.1em;
+    font-weight: bold;
+    transition: 200ms all;
+    -webkit-transition: 200ms all;
+    -moz-transition: 200ms all;
+    -ms-transition: 200ms all;
+    -o-transition: 200ms all;
+    cursor: pointer;
+    border-radius: 10px 0 10px 0;
+    -webkit-border-radius: 10px 0 10px 0;
+    -moz-border-radius: 10px 0 10px 0;
+    -ms-border-radius: 10px 0 10px 0;
+    -o-border-radius: 10px 0 10px 0;
+}
+#MarvelPaginationCap:hover{
+    transform: translate(0,-10px);
+    -webkit-transform: translate(0,-10px);
+    -moz-transform: translate(0,-10px);
+    -ms-transform: translate(0,-10px);
+    -o-transform: translate(0,-10px);
+    box-shadow: 0 10px 5px var(--blackBackFour);
+}

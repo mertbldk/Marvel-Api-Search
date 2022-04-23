@@ -1,0 +1,208 @@
+/*Responsive*/
+
+/*L*/
+@media screen and (min-width:992px) and (max-width:1199px) {
+    /*Character Img*/
+    #CharacterImg{
+        width: 13em;
+        height: 60%;
+    }
+    /*Character Info*/
+    #CharacterInfo{
+        width: 45em;
+        height: 60%;
+    }
+}
+/*M*/
+@media screen and (min-width:768px) and (max-width:991px) {
+    /*Home*/
+    #HomeTitle{
+        font-size: 7em;
+    }
+    /*Error*/
+    #ErrorTitle{
+        font-size: 7em;
+    }
+    /*Character Img*/
+    #CharacterImg{
+        width: 12em;
+        height: 70%;
+    }
+    /*Character Info*/
+    #CharacterInfo{
+        width: 33em;
+        height: 70%;
+    }
+    /*Character Title*/
+    #CharacterTitleCap{
+        height: 0%;
+    }
+    #CharacterTitleName{
+        width: 50%;
+        font-size: 1em;
+    }
+    #CharacterTitleDate{
+        width: 11em;
+        height: 2.5em;
+    }
+    #CharacterTitleDate span:nth-child(1){
+        font-size: 0.8em;
+    }
+    #CharacterTitleDate span:nth-child(2){
+        font-size: 0.6em;
+    }
+    /*Character Text*/
+    #CharacterText{
+        width: 100%;
+    }
+    #CharacterText p{
+        font-size: 0.9em;
+    }
+    /*Character More*/
+    #CharacterMore{
+        height: 0%;
+    }
+    #CharacterMore a{
+        width: 9.5em;
+        height: 2.8em;
+        font-size: 0.9em;
+    }
+}
+/*S*/
+@media screen and (min-width:576px) and (max-width:767px) {
+    /*Home*/
+    #HomeTitle{
+        font-size: 5em;
+    }
+    /*Error*/
+    #ErrorTitle{
+        font-size: 5em;
+    }
+    /*Character Img*/
+    #CharacterImg{
+        display: none;
+    }
+    /*Character Info*/
+    #CharacterInfo{
+        width: 33em;
+        height: 70%;
+    }
+    /*Character Title*/
+    #CharacterTitleCap{
+        height: 0%;
+    }
+    #CharacterTitleName{
+        width: 50%;
+        font-size: 0.9em;
+    }
+    #CharacterTitleDate{
+        width: 11.5em;
+        height: 2.8em;
+    }
+    #CharacterTitleDate span:nth-child(1){
+        font-size: 0.9em;
+    }
+    #CharacterTitleDate span:nth-child(2){
+        font-size: 0.7em;
+    }
+    /*Character Text*/
+    #CharacterText{
+        width: 100%;
+    }
+    #CharacterText p{
+        font-size: 0.9em;
+    }
+    /*Character More*/
+    #CharacterMore{
+        height: 0%;
+    }
+    #CharacterMore a{
+        width: 9.5em;
+        height: 2.8em;
+        font-size: 0.9em;
+    }
+}
+/*XS*/
+@media screen and (max-width:575px) {
+    
+    /*Menu Logo*/
+    #MenuLogo{
+        width: 6em;
+        height: 3em;
+    }
+    /*Menu Search Cap*/
+    #MenuSearchCap input{
+        height: 2.5em;
+    }
+    #MenuSearchCap button{
+        height: 2.5em;
+        font-size: 1.1em;
+    }
+    /*Home*/
+    #HomeTitle{
+        font-size: 3.5em;
+    }
+    /*Error*/
+    #ErrorTitle{
+        font-size: 3.5em;
+    }
+    /*Marvel Cap*/
+    #MarvelCap{
+        grid-template-columns: repeat(auto-fit,minmax(8.5em,1fr));
+    }
+    /*Card*/
+    #MarvelCard{
+        width: 7em;
+        height: 9em;
+    }
+    /*Card Name*/
+    #MarvelName{
+        width: 100%;
+        height: 2em;
+    }
+    #MarvelName div{
+        line-height: 1.4em;
+        font-size: 0.8em;
+        padding: 6px;
+    }
+
+    /*Character Img*/
+    #CharacterImg{
+        display: none;
+    }
+    /*Character Info*/
+    #CharacterInfo{
+        width: 25em;
+        height: 80%;
+    }
+    /*Character Title*/
+    #CharacterTitleCap{
+        height: 0%;
+    }
+    #CharacterTitleName{
+        width: 100%;
+        font-size: 0.9em;
+        padding: 15px;
+    }
+    #CharacterTitleDate{
+        display: none;
+    }
+    /*Character Text*/
+    #CharacterText{
+        width: 100%;
+        height: 60%;
+    }
+    #CharacterText p{
+        font-size: 0.8em;
+    }
+    /*Character More*/
+    #CharacterMore{
+        height: 0%;
+    }
+    #CharacterMore a{
+        width: 9.5em;
+        height: 2.8em;
+        font-size: 0.9em;
+    }
+    
+}
